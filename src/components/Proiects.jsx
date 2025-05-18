@@ -1,10 +1,46 @@
 export const MyProiects = [
   {
+    //thaishopstudio
+    id: 15,
+    color: "from-red-300 to-blue-300",
+    title: "Thaishop Studio",
+    desc: "A comprehensive e-commerce platform with product catalog, shopping cart, secure checkout, and order management. Features include user authentication, product search/filtering, and responsive design for optimal shopping experience.",
+    img: "/15.webp",
+    link: "",
+    github_url: "",
+    key_techs: "Vue.js nuxt.js, bottstrap, chart.js",
+    }
+    ,
+    {
+    //afithub
+    id: 14,
+    color: "from-red-300 to-blue-300",
+    title: "Afithub",
+    desc: "An e-commerce platform specializing in a revolutionary weight loss supplement. Features product details, secure checkout, before/after testimonials, subscription options, and detailed nutritional information to help customers achieve their fitness goals.",
+    img: "/14.webp",
+    link: "",
+    github_url: "",
+    key_techs: "Vue.js nuxt.js, bottstrap, chart.js",
+    }
+    ,
+    {
+    //contol panel
+    id: 13,
+    color: "from-red-300 to-blue-300",
+    title: "Control Panel",
+    desc: "A comprehensive admin control panel that manages website content, user permissions, and system settings. Features include real-time analytics, content management, user activity monitoring, and customizable dashboard with interactive charts for data visualization.",
+    img: "/16.webp",
+    link: "",
+    github_url: "",
+    key_techs: "Vue.js nuxt.js, bottstrap, chart.js",
+    }
+    ,
+    {
     //eectronic platform
     id: 1,
     color: "from-red-300 to-blue-300",
-    title: "Next.js Electronic Platform",
-    desc: "An electronic platform for student education By registering students on the platform and watching the lessons Supported by Authentication ,Authorisation and chart for Admin for statistics",
+    title: "Next.js Educational Platform",
+    desc: "An Educational platform for student education By registering students on the platform and watching the lessons Supported by Authentication ,Authorisation and chart for Admin for statistics",
     img: "/mr-omar.svg",
     link: "https://mr-omar.netlify.app/",
     github_url: "",
