@@ -9,7 +9,7 @@ const PortfolioPage = () => {
   const ref = useRef();
 
   const { scrollYProgress } = useScroll({ target: ref });
-  const x = useTransform(scrollYProgress, [0, 1], ["10%", "-92%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["10%", "-85%"]);
 
   return (
     <motion.div
@@ -49,9 +49,9 @@ const PortfolioPage = () => {
                     <span className="text-lg ">key_Techs :- </span>
                     <span className="text-lg">{item.key_techs}</span>
                   </div>
-                  <Link href={item.link} className="flex justify-end">
-                    <button className="p-2 m-4 text-sm font-semibold text-gray-600 bg-white rounded md:p-4 md:text-md lg:text-lg">
-                      {item.link ? "Live Demo" : "Privet project"}
+                  <Link target="_blank" href={item.link} className="flex justify-end">
+                   <button className="p-2 m-4 text-sm font-semibold text-gray-600 bg-white rounded md:p-4 md:text-md lg:text-lg">
+                      {item.link ? "Live Demo" : (item.github_url ? "Github" : "No Link")}
                     </button>
                   </Link>
                 </div>

@@ -112,7 +112,12 @@ const AboutPage = () => {
               <div className="p-2 text-sm text-white bg-black rounded cursor-pointer hover:bg-white hover:text-black">
                 Next.js
               </div>
-
+              <div className="p-2 text-sm text-white bg-black rounded cursor-pointer hover:bg-white hover:text-black">
+                Vue.js
+              </div>
+              <div className="p-2 text-sm text-white bg-black rounded cursor-pointer hover:bg-white hover:text-black">
+                Nuxt.js
+              </div>
               <div className="p-2 text-sm text-white bg-black rounded cursor-pointer hover:bg-white hover:text-black">
                 Tailwind CSS
               </div>
@@ -219,7 +224,57 @@ const AboutPage = () => {
               className=""
             >
               {/* EXPERIENCE LIST ITEM */}
-              <div className="flex justify-between sm:h-56 md:h-52 lg:h-60">
+              <div className="flex justify-between h-50">
+                {/* LEFT */}
+                <div className="w-1/3 ">
+                  
+                </div>
+                {/* CENTER */}
+                <div className="flex justify-center w-1/6">
+                  {/* LINE */}
+                  <div className="relative w-1 h-full bg-gray-600 rounded">
+                    {/* LINE CIRCLE */}
+                    <div className="absolute w-5 h-5 bg-white rounded-full ring-4 ring-red-400 -left-2"></div>
+                  </div>
+                </div>
+                {/* RIGHT */}
+                <div className="w-1/3 ">
+                {/* JOB TITLE */}
+                  <div className="p-3 font-semibold bg-white rounded-b-lg rounded-s-lg">  
+                    Front End Developer
+                  </div>
+                  {/* JOB DESC */}  
+                  <div className="p-3 text-sm italic">
+                    <ul className="list-disc ">
+                      <li>
+                        participate and work at least 4 separate projects By working in a healthy work
+ environment, I was able to participate in at least three projects with different ideas
+ and different client needs.
+                      </li>
+                      <li>
+                         Worked on unique projects Working on this kind of projects that called CMS
+ witch is evry thing is dynamic in website like contolpanal or website to help the
+ user to custmize his project as they like.
+                      </li>
+                      <li>
+                        Worked with difrrent developrers Working with developers in an encouraging
+ and strong work environment that pushes you to produce and give your best.
+                      </li>
+                    </ul>
+                  </div>
+                  {/* JOB DATE */}
+                  <div className="p-3 text-sm font-semibold text-red-400">
+                    Dec 2024 - present
+                  </div>
+                  {/* JOB COMPANY */}
+                  <div className="p-1 text-sm font-semibold bg-white rounded w-fit">
+                    Not Found Agance
+                  </div></div>
+              </div>
+
+              
+              {/* EXPERIENCE LIST ITEM */}
+              <div className="flex justify-between h-50">
                 {/* LEFT */}
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
@@ -248,7 +303,7 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-sm font-semibold text-red-400">
-                    2024 - Present
+                    2024 
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 text-sm font-semibold bg-white rounded w-fit">
@@ -267,7 +322,7 @@ const AboutPage = () => {
                 <div className="w-1/3 "></div>
               </div>
               {/* EXPERIENCE LIST ITEM */}
-              <div className="flex justify-between h-48">
+              <div className="flex justify-between h-50">
                 {/* LEFT */}
                 <div className="w-1/3 "></div>
                 {/* CENTER */}
@@ -312,7 +367,7 @@ const AboutPage = () => {
                 </div>
               </div>
               {/* EXPERIENCE LIST ITEM */}
-              <div className="flex justify-between h-48">
+              <div className="flex justify-between h-50">
                 {/* LEFT */}
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}

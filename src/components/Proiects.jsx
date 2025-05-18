@@ -6,7 +6,7 @@ export const MyProiects = [
     title: "Thaishop Studio",
     desc: "A comprehensive e-commerce platform with product catalog, shopping cart, secure checkout, and order management. Features include user authentication, product search/filtering, and responsive design for optimal shopping experience.",
     img: "/15.webp",
-    link: "",
+    link: "https://thaishopstudio.com",
     github_url: "",
     key_techs: "Vue.js nuxt.js, bottstrap, chart.js",
     }
@@ -18,7 +18,7 @@ export const MyProiects = [
     title: "Afithub",
     desc: "An e-commerce platform specializing in a revolutionary weight loss supplement. Features product details, secure checkout, before/after testimonials, subscription options, and detailed nutritional information to help customers achieve their fitness goals.",
     img: "/14.webp",
-    link: "",
+    link: "https://afithub.com/",
     github_url: "",
     key_techs: "Vue.js nuxt.js, bottstrap, chart.js",
     }
