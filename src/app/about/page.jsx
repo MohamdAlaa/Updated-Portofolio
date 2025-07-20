@@ -226,9 +226,7 @@ const AboutPage = () => {
               {/* EXPERIENCE LIST ITEM */}
               <div className="flex justify-between h-50">
                 {/* LEFT */}
-                <div className="w-1/3 ">
-                  
-                </div>
+                <div className="w-1/3 "></div>
                 {/* CENTER */}
                 <div className="flex justify-center w-1/6">
                   {/* LINE */}
@@ -239,26 +237,29 @@ const AboutPage = () => {
                 </div>
                 {/* RIGHT */}
                 <div className="w-1/3 ">
-                {/* JOB TITLE */}
-                  <div className="p-3 font-semibold bg-white rounded-b-lg rounded-s-lg">  
+                  {/* JOB TITLE */}
+                  <div className="p-3 font-semibold bg-white rounded-b-lg rounded-s-lg">
                     Front End Developer
                   </div>
-                  {/* JOB DESC */}  
+                  {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
                     <ul className="list-disc ">
                       <li>
-                        participate and work at least 4 separate projects By working in a healthy work
- environment, I was able to participate in at least three projects with different ideas
- and different client needs.
+                        participate and work at least 4 separate projects By
+                        working in a healthy work environment, I was able to
+                        participate in at least three projects with different
+                        ideas and different client needs.
                       </li>
                       <li>
-                         Worked on unique projects Working on this kind of projects that called CMS
- witch is evry thing is dynamic in website like contolpanal or website to help the
- user to custmize his project as they like.
+                        Worked on unique projects Working on this kind of
+                        projects that called CMS witch is evry thing is dynamic
+                        in website like contolpanal or website to help the user
+                        to custmize his project as they like.
                       </li>
                       <li>
-                        Worked with difrrent developrers Working with developers in an encouraging
- and strong work environment that pushes you to produce and give your best.
+                        Worked with difrrent developrers Working with developers
+                        in an encouraging and strong work environment that
+                        pushes you to produce and give your best.
                       </li>
                     </ul>
                   </div>
@@ -268,11 +269,11 @@ const AboutPage = () => {
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 text-sm font-semibold bg-white rounded w-fit">
-                    Not Found Agance
-                  </div></div>
+                    Masa International
+                  </div>
+                </div>
               </div>
 
-              
               {/* EXPERIENCE LIST ITEM */}
               <div className="flex justify-between h-50">
                 {/* LEFT */}
@@ -303,7 +304,7 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-sm font-semibold text-red-400">
-                    2024 
+                    2024
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 text-sm font-semibold bg-white rounded w-fit">
