@@ -1,7 +1,18 @@
 export const MyProiects = [
   {
-    //thaishopstudio
+    //safkamarket
     id: 15,
+    color: "from-red-300 to-blue-300",
+    title: "Safka Market",
+    desc: " an e-commerce platform that offers a wide range of products, including electronics, fashion, home goods, and more. It features a user-friendly interface, secure payment options, and efficient order management to enhance the shopping experience.",
+    img: "/17.webp",
+    link: "https://safkamarket.com",
+    github_url: "",
+    key_techs: "Vue.js nuxt.js, bottstrap, chart.js",
+  },
+  {
+    //thaishopstudio
+    id: 14,
     color: "from-red-300 to-blue-300",
     title: "Thaishop Studio",
     desc: "A comprehensive e-commerce platform with product catalog, shopping cart, secure checkout, and order management. Features include user authentication, product search/filtering, and responsive design for optimal shopping experience.",
@@ -9,21 +20,9 @@ export const MyProiects = [
     link: "https://thaishopstudio.com",
     github_url: "",
     key_techs: "Vue.js nuxt.js, bottstrap, chart.js",
-    }
-    ,
-    {
-    //afithub
-    id: 14,
-    color: "from-red-300 to-blue-300",
-    title: "Afithub",
-    desc: "An e-commerce platform specializing in a revolutionary weight loss supplement. Features product details, secure checkout, before/after testimonials, subscription options, and detailed nutritional information to help customers achieve their fitness goals.",
-    img: "/14.webp",
-    link: "https://afithub.com/",
-    github_url: "",
-    key_techs: "Vue.js nuxt.js, bottstrap, chart.js",
-    }
-    ,
-    {
+  },
+
+  {
     //contol panel
     id: 13,
     color: "from-red-300 to-blue-300",
@@ -33,9 +32,8 @@ export const MyProiects = [
     link: "",
     github_url: "",
     key_techs: "Vue.js nuxt.js, bottstrap, chart.js",
-    }
-    ,
-    {
+  },
+  {
     //eectronic platform
     id: 1,
     color: "from-red-300 to-blue-300",
