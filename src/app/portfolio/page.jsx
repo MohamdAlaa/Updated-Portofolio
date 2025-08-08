@@ -49,11 +49,26 @@ const PortfolioPage = () => {
                     <span className="text-lg ">key_Techs :- </span>
                     <span className="text-lg">{item.key_techs}</span>
                   </div>
-                  <Link target="_blank" href={item.link} className="flex justify-end">
-                   <button className="p-2 m-4 text-sm font-semibold text-gray-600 bg-white rounded md:p-4 md:text-md lg:text-lg">
-                      {item.link ? "Live Demo" : (item.github_url ? "Github" : "No Link")}
-                    </button>
-                  </Link>
+                  <div className="flex flex-col items-center justify-center w-full gap-4 md:flex-row">
+                    <Link
+                      target="_blank"
+                      href={item.link}
+                      className="flex justify-end"
+                    >
+                      <button className="p-2 m-4 text-sm font-semibold text-gray-600 bg-white rounded md:p-4 md:text-md lg:text-lg">
+                        {item.link ? "Live Demo" : "project Not Public"}
+                      </button>
+                    </Link>
+                    <Link
+                      target="_blank"
+                      href={item.github_url}
+                      className="flex justify-end"
+                    >
+                      <button className="p-2 m-4 text-sm font-semibold text-gray-600 bg-white rounded md:p-4 md:text-md lg:text-lg">
+                        {item.github_url ? "Github" : "Project Not Public"}
+                      </button>
+                    </Link>
+                  </div>
                 </div>
               </div>
             ))}

@@ -1,5 +1,16 @@
 export const MyProiects = [
   {
+    //ShadCN Dashboard
+    id: 16,
+    color: "from-red-300 to-blue-300",
+    title: "ShadCN Dashboard",
+    desc: " A modern dashboard built with ShadCN, Next.js, and Tailwind CSS. It features a sleek design, responsive layout, and interactive components for managing data efficiently. The dashboard includes charts, tables, and forms for a comprehensive user experience.",
+    img: "/18.webp",
+    link: "https://shad-cn-dashboard-sigma.vercel.app/",
+    github_url: "https://github.com/MohamdAlaa/ShadCN-Dashboard",
+    key_techs: "Next.js, Tailwind CSS, ShadCN, tanstack",
+  },
+  {
     //safkamarket
     id: 15,
     color: "from-red-300 to-blue-300",
@@ -52,7 +63,7 @@ export const MyProiects = [
     desc: "A Wonderful Prayers Time App for knowing the next prayer and Calculating the time remaining until the next prayer.",
     img: "/13.webp",
     link: "https://main--tangerine-raindrop-e89c5c.netlify.app/",
-    github_url: "https://github.com/MohamdAlaa/Admin-Dahboard",
+    github_url: "https://github.com/MohamdAlaa/Time-prayer",
     key_techs: "React js, Axios, Moment",
   },
   {
