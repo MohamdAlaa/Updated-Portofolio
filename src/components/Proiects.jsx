@@ -1,5 +1,17 @@
 export const MyProiects = [
   {
+    //Next.js Auth App
+    id: 17,
+    color: "from-red-300 to-blue-300",
+    title: "Next.js Auth App",
+    desc: " A secure authentication app built with Next.js and Iron-session. It features user registration, login, and protected routes to ensure data privacy. The app utilizes server-side rendering for improved performance and SEO.",
+    img: "/19.webp",
+    link: "https://next-js-auth-app-ten.vercel.app/",
+    github_url: "https://github.com/MohamdAlaa/Next.js-Auth-App",
+    key_techs: "Next.js, Tailwind CSS, Iron-session",
+  },
+
+  {
     //ShadCN Dashboard
     id: 16,
     color: "from-red-300 to-blue-300",

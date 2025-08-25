@@ -49,7 +49,7 @@ const PortfolioPage = () => {
                     <span className="text-lg ">key_Techs :- </span>
                     <span className="text-lg">{item.key_techs}</span>
                   </div>
-                  <div className="flex flex-col items-center justify-center w-full gap-4 md:flex-row">
+                  <div className="flex flex-col items-center justify-center w-full md:gap-4 md:flex-row sm:gap-0">
                     <Link
                       target="_blank"
                       href={item.link}
