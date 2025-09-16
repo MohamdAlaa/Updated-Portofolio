@@ -9,7 +9,7 @@ const PortfolioPage = () => {
   const ref = useRef();
 
   const { scrollYProgress } = useScroll({ target: ref });
-  const x = useTransform(scrollYProgress, [0, 1], ["10%", "-85%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["12%", "-85%"]);
 
   return (
     <motion.div
@@ -56,7 +56,38 @@ const PortfolioPage = () => {
                       className="flex justify-end"
                     >
                       <button className="p-2 m-4 text-sm font-semibold text-gray-600 bg-white rounded md:p-4 md:text-md lg:text-lg">
-                        {item.link ? "Live Demo" : "project Not Public"}
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="30"
+                          height="30"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="7"
+                          strokeLinecap="round"
+                          className="lucide lucide-external-link w-4 h-4 inline mr-2"
+                          aria-hidden="true"
+                        >
+                          <path
+                            d="M15 3h6v6"
+                            stroke="#000000"
+                            fill="none"
+                            strokeWidth="2px"
+                          ></path>
+                          <path
+                            d="M10 14 21 3"
+                            stroke="#000000"
+                            fill="none"
+                            strokeWidth="2px"
+                          ></path>
+                          <path
+                            d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                            stroke="#000000"
+                            fill="none"
+                            strokeWidth="2px"
+                          ></path>
+                        </svg>
+                        {item.link ? "Live Demo" : "Project Not Public"}
                       </button>
                     </Link>
                     <Link
@@ -64,8 +95,22 @@ const PortfolioPage = () => {
                       href={item.github_url}
                       className="flex justify-end"
                     >
-                      <button className="p-2 m-4 text-sm font-semibold text-gray-600 bg-white rounded md:p-4 md:text-md lg:text-lg">
-                        {item.github_url ? "Github" : "Project Not Public"}
+                      <button className="p-2 m-4 text-sm font-semibold text-gray-600 bg-white rounded md:p-4 md:text-md lg:text-lg flex items-center gap-2">
+                        <svg
+                          width="25px"
+                          height="25px"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                        >
+                          <path
+                            fill="#000000"
+                            fillRule="evenodd"
+                            d="M8 1C4.133 1 1 4.13 1 7.993c0 3.09 2.006 5.71 4.787 6.635.35.064.478-.152.478-.337 0-.166-.006-.606-.01-1.19-1.947.423-2.357-.937-2.357-.937-.319-.808-.778-1.023-.778-1.023-.635-.434.048-.425.048-.425.703.05 1.073.72 1.073.72.624 1.07 1.638.76 2.037.582.063-.452.244-.76.444-.935-1.554-.176-3.188-.776-3.188-3.456 0-.763.273-1.388.72-1.876-.072-.177-.312-.888.07-1.85 0 0 .586-.189 1.924.716A6.711 6.711 0 018 4.381c.595.003 1.194.08 1.753.236 1.336-.905 1.923-.717 1.923-.717.382.963.142 1.674.07 1.85.448.49.72 1.114.72 1.877 0 2.686-1.638 3.278-3.197 3.45.251.216.475.643.475 1.296 0 .934-.009 1.688-.009 1.918 0 .187.127.404.482.336A6.996 6.996 0 0015 7.993 6.997 6.997 0 008 1z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                        {item.github_url ? "Code" : "Private Repo"}
                       </button>
                     </Link>
                   </div>

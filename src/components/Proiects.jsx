@@ -1,6 +1,18 @@
 export const MyProiects = [
   {
     //Next.js Auth App
+    id: 18,
+    color: "from-red-300 to-blue-300",
+    title: "CarePlus",
+    desc: "a healthcare platform that streamlines patient registration, appointment scheduling, medical records, complex forms and SMS notifications for a seamless healthcare experience.",
+    img: "/20.webp",
+    link: "https://patient-management-system-psi.vercel.app/",
+    github_url: "https://github.com/MohamdAlaa/Patient-Management-System",
+    key_techs:
+      "React.js 19, Next.js 15, Tailwind CSS, ShadCN, TypeScript, React Hook Form,Zod, TanStack, Twilio, Appwrite",
+  },
+  {
+    //Next.js Auth App
     id: 17,
     color: "from-red-300 to-blue-300",
     title: "Next.js Auth App",

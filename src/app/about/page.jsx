@@ -242,24 +242,27 @@ const AboutPage = () => {
                     Front End Developer
                   </div>
                   {/* JOB DESC */}
-                  <div className="p-3 text-sm italic">
+                  <div className="p-3 text-[1rem] italic">
                     <ul className="list-disc ">
                       <li>
-                        participate and work at least 4 separate projects By
-                        working in a healthy work environment, I was able to
-                        participate in at least three projects with different
-                        ideas and different client needs.
+                        Collaborated on multiple dynamic CMS-based web projects
+                        with custom Control Panels.
                       </li>
                       <li>
-                        Worked on unique projects Working on this kind of
-                        projects that called CMS witch is evry thing is dynamic
-                        in website like contolpanal or website to help the user
-                        to custmize his project as they like.
+                        Delivered Arabic/English multi-language support with RTL
+                        layout consideration.
                       </li>
                       <li>
-                        Worked with difrrent developrers Working with developers
-                        in an encouraging and strong work environment that
-                        pushes you to produce and give your best.
+                        Worked in a high-performance development team,
+                        contributing to at least 3 large-scale projects.
+                      </li>
+                      <li>
+                        Applied component-driven architecture and reusable UI
+                        strategies for scalability.
+                      </li>
+                      <li>
+                        Built dynamic dashboards with charts, modals, and
+                        progress bars
                       </li>
                     </ul>
                   </div>
@@ -269,7 +272,7 @@ const AboutPage = () => {
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 text-sm font-semibold bg-white rounded w-fit">
-                    Masa International
+                    Masa International Group
                   </div>
                 </div>
               </div>
@@ -283,7 +286,7 @@ const AboutPage = () => {
                     Front End Developer
                   </div>
                   {/* JOB DESC */}
-                  <div className="p-3 text-sm italic">
+                  <div className="p-3 text-[1rem] italic">
                     <ul className="list-disc ">
                       <li>
                         Developed and maintained responsive web applications.
@@ -304,7 +307,7 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-sm font-semibold text-red-400">
-                    2024
+                    Jan2024 - May2024
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 text-sm font-semibold bg-white rounded w-fit">
@@ -341,7 +344,7 @@ const AboutPage = () => {
                     Front End Developer
                   </div>
                   {/* JOB DESC */}
-                  <div className="p-3 text-sm italic">
+                  <div className="p-3 text-[1rem] italic">
                     <ul className="list-disc ">
                       <li>
                         Designed web applications with a focus on responsive
@@ -359,7 +362,7 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-sm font-semibold text-red-400">
-                    2022
+                    Feb2022 - Aug2022
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 text-sm font-semibold bg-white rounded w-fit">
@@ -376,7 +379,7 @@ const AboutPage = () => {
                     React JS Training.
                   </div>
                   {/* JOB DESC */}
-                  <div className="p-3 text-sm italic">
+                  <div className="p-3 text-[1rem] italic">
                     <ul className="list-disc ">
                       <li>learned React library.</li>
                       <li>Gained expertise in Redux and state management.</li>
@@ -388,7 +391,7 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-sm font-semibold text-red-400">
-                    2021
+                    Jan2021 - Apr2021
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 text-sm font-semibold bg-white rounded w-fit">

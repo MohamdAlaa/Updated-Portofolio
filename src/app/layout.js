@@ -5,7 +5,8 @@ import TransitionProvider from "@/components/TransitionProvider";
 const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Mohamed Alaa",
-  description: "",
+  description:
+    "Portfolio website of Mohamed Alaa, a skilled web developer specializing in React, Next.js, and modern web technologies. Explore projects, skills, and contact information.",
 };
 
 export default function RootLayout({ children }) {
