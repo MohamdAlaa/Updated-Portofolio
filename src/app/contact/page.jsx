@@ -42,7 +42,7 @@ const ContactPage = () => {
     >
       <div className="flex flex-col h-full px-4 lg:flex-row sm:px-8 md:px-12 lg:px-20 xl:px-48">
         {/* TEXT CONTAINER */}
-        <div className="flex items-center justify-center text-6xl h-1/2 lg:h-full lg:w-1/2">
+        <div className="flex items-center justify-center text-6xl h-1/2 lg:h-full lg:w-1/2 dark:text-white">
           <div>
             {text.split("").map((letter, index) => (
               <motion.span
@@ -65,24 +65,24 @@ const ContactPage = () => {
         <form
           onSubmit={sendEmail}
           ref={form}
-          className="flex flex-col justify-center gap-8 p-1 sm:p-4 lg:p-24 text-xl h-1/2 lg:h-full lg:w-1/2 bg-red-50 rounded-xl"
+          className="flex flex-col justify-center gap-8 p-1 sm:p-4 lg:p-24 text-xl h-1/2 lg:h-full lg:w-1/2 bg-red-50 dark:bg-gray-800 rounded-xl"
         >
-          <span>Hallo Mr-Mohamed ,</span>
+          <span className="dark:text-white">Hallo Mr-Mohamed ,</span>
           <textarea
             rows={1}
-            className="bg-transparent border-b-2 outline-none resize-none border-b-black"
+            className="bg-transparent border-b-2 outline-none resize-none border-b-black dark:border-b-white dark:text-white"
             name="user_message"
             required
           />
-          <span>My mail address is:</span>
+          <span className="dark:text-white">My mail address is:</span>
           <input
             name="user_email"
             type="text"
-            className="bg-transparent border-b-2 outline-none border-b-black"
+            className="bg-transparent border-b-2 outline-none border-b-black dark:border-b-white dark:text-white"
             required
           />
-          <span>Regards</span>
-          <button className="p-4 font-semibold text-gray-600 bg-purple-200 rounded">
+          <span className="dark:text-white">Regards</span>
+          <button className="p-4 font-semibold text-gray-600 bg-purple-300 dark:bg-purple-600 dark:text-white rounded">
             Send
           </button>
           {success && (

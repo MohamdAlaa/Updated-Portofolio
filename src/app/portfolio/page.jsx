@@ -19,7 +19,7 @@ const PortfolioPage = () => {
       transition={{ duration: 1 }}
     >
       <div className="h-[600vh] relative" ref={ref}>
-        <div className="w-screen h-[calc(100vh-6rem)] flex items-center justify-center text-8xl text-center">
+        <div className="w-screen h-[calc(100vh-6rem)] flex items-center justify-center text-8xl text-center dark:text-white ">
           My Works
         </div>
         <div className="sticky top-0 flex items-center h-screen gap-4 overflow-hidden">
@@ -121,7 +121,7 @@ const PortfolioPage = () => {
         </div>
       </div>
       <div className="flex flex-col items-center justify-center w-screen h-screen gap-16 text-center">
-        <h1 className="text-8xl">Do you have a project?</h1>
+        <h1 className="text-8xl dark:text-white">Do you have a project?</h1>
         <div className="relative">
           <motion.svg
             animate={{ rotate: 360 }}
@@ -135,15 +135,15 @@ const PortfolioPage = () => {
                 d="M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 "
               />
             </defs>
-            <text fill="#000">
+            <text fill="currentColor" className="text-black dark:text-white">
               <textPath xlinkHref="#circlePath" className="text-xl">
-                Front-end Developer and UI Designer
+                Software Developer , Front-end Developer and UI Designer
               </textPath>
             </text>
           </motion.svg>
           <Link
             href="/contact"
-            className="absolute top-0 bottom-0 left-0 right-0 flex items-center justify-center w-16 h-16 m-auto text-white bg-black rounded-full md:w-28 md:h-28"
+            className="absolute top-0 bottom-0 left-0 right-0 flex items-center justify-center w-16 h-16 m-auto text-white bg-black dark:bg-white dark:text-black rounded-full md:w-28 md:h-28"
           >
             Hire Me
           </Link>

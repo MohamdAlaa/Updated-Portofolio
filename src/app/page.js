@@ -20,11 +20,11 @@ const Homepage = () => {
           {/* TEXT CONTAINER */}
           <div className="flex flex-col items-center justify-center gap-8 h-1/2 lg:h-full lg:w-1/2">
             {/* TITLE */}
-            <h1 className="text-4xl font-bold md:text-6xl">
+            <h1 className="text-4xl font-bold md:text-6xl dark:text-white">
               Crafting Digital Experiences, Designing Tomorrow.
             </h1>
             {/* DESC */}
-            <p className="md:text-xl">
+            <p className="md:text-xl dark:text-gray-300">
               Welcome to my Personal portfolio, where innovation and creativity
               converge. With a keen eye for aesthetics and a mastery of code, my
               portfolio showcases a diverse collection of projects that reflect
@@ -34,13 +34,13 @@ const Homepage = () => {
             <div className="flex w-full gap-4">
               <Link
                 href="/portfolio"
-                className="p-4 text-white bg-black rounded-lg ring-1 ring-black hover:scale-90 transition-all duration-300 "
+                className="p-4 text-white bg-black dark:bg-white dark:text-black rounded-lg ring-1 ring-black dark:ring-white hover:scale-90 transition-all duration-300 "
               >
                 View My Work
               </Link>
               <Link
                 href="/contact"
-                className="p-4 rounded-lg ring-1 ring-black hover:scale-90 transition-all duration-300"
+                className="p-4 rounded-lg ring-1 ring-black dark:ring-white dark:text-white hover:scale-90 transition-all duration-300"
               >
                 Contact Me
               </Link>

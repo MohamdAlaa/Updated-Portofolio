@@ -30,9 +30,9 @@ const AboutPage = () => {
           {/* BIOGRAPHY CONTAINER */}
           <div className="flex flex-col justify-center gap-12">
             {/* BIOGRAPHY TITLE */}
-            <h1 className="text-2xl font-bold">SUMMARY</h1>
+            <h1 className="text-2xl font-bold dark:text-white">SUMMARY</h1>
             {/* BIOGRAPHY DESC */}
-            <p className="text-lg">
+            <p className="text-lg dark:text-gray-300">
               Results-driven Front End Developer skilled in designing ,
               implementing responsive and user-friendly web interfaces.
               Proficient in HTML, CSS, JavaScript (ES6), and TypeScript, with
@@ -84,7 +84,7 @@ const AboutPage = () => {
               initial={{ x: "-300px" }}
               animate={isSkillRefInView ? { x: 0 } : {}}
               transition={{ delay: 0.2 }}
-              className="text-2xl font-bold"
+              className="text-2xl font-bold dark:text-white"
             >
               SKILLS
             </motion.h1>
@@ -94,88 +94,88 @@ const AboutPage = () => {
               animate={isSkillRefInView ? { x: 0 } : {}}
               className="flex flex-wrap gap-4"
             >
-              <div className="p-2 text-sm text-white bg-black rounded cursor-pointer hover:bg-white hover:text-black">
+              <div className="p-2 text-sm text-white bg-black dark:bg-white dark:text-black rounded cursor-pointer hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors duration-300">
                 HTML
               </div>
-              <div className="p-2 text-sm text-white bg-black rounded cursor-pointer hover:bg-white hover:text-black">
+              <div className="p-2 text-sm text-white bg-black dark:bg-white dark:text-black rounded cursor-pointer hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors duration-300">
                 CSS
               </div>
-              <div className="p-2 text-sm text-white bg-black rounded cursor-pointer hover:bg-white hover:text-black">
+              <div className="p-2 text-sm text-white bg-black dark:bg-white dark:text-black rounded cursor-pointer hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors duration-300">
                 Javascript
               </div>
-              <div className="p-2 text-sm text-white bg-black rounded cursor-pointer hover:bg-white hover:text-black">
+              <div className="p-2 text-sm text-white bg-black dark:bg-white dark:text-black rounded cursor-pointer hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors duration-300">
                 Typescript
               </div>
-              <div className="p-2 text-sm text-white bg-black rounded cursor-pointer hover:bg-white hover:text-black">
+              <div className="p-2 text-sm text-white bg-black dark:bg-white dark:text-black rounded cursor-pointer hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors duration-300">
                 React.js
               </div>
-              <div className="p-2 text-sm text-white bg-black rounded cursor-pointer hover:bg-white hover:text-black">
+              <div className="p-2 text-sm text-white bg-black dark:bg-white dark:text-black rounded cursor-pointer hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors duration-300">
                 Next.js
               </div>
-              <div className="p-2 text-sm text-white bg-black rounded cursor-pointer hover:bg-white hover:text-black">
+              <div className="p-2 text-sm text-white bg-black dark:bg-white dark:text-black rounded cursor-pointer hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors duration-300">
                 Vue.js
               </div>
-              <div className="p-2 text-sm text-white bg-black rounded cursor-pointer hover:bg-white hover:text-black">
+              <div className="p-2 text-sm text-white bg-black dark:bg-white dark:text-black rounded cursor-pointer hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors duration-300">
                 Nuxt.js
               </div>
-              <div className="p-2 text-sm text-white bg-black rounded cursor-pointer hover:bg-white hover:text-black">
+              <div className="p-2 text-sm text-white bg-black dark:bg-white dark:text-black rounded cursor-pointer hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors duration-300">
                 Tailwind CSS
               </div>
-              <div className="p-2 text-sm text-white bg-black rounded cursor-pointer hover:bg-white hover:text-black">
+              <div className="p-2 text-sm text-white bg-black dark:bg-white dark:text-black rounded cursor-pointer hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors duration-300">
                 jQuery
               </div>
-              <div className="p-2 text-sm text-white bg-black rounded cursor-pointer hover:bg-white hover:text-black">
+              <div className="p-2 text-sm text-white bg-black dark:bg-white dark:text-black rounded cursor-pointer hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors duration-300">
                 Bootstrap
               </div>
-              <div className="p-2 text-sm text-white bg-black rounded cursor-pointer hover:bg-white hover:text-black">
+              <div className="p-2 text-sm text-white bg-black dark:bg-white dark:text-black rounded cursor-pointer hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors duration-300">
                 Jest
               </div>
-              <div className="p-2 text-sm text-white bg-black rounded cursor-pointer hover:bg-white hover:text-black">
+              <div className="p-2 text-sm text-white bg-black dark:bg-white dark:text-black rounded cursor-pointer hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors duration-300">
                 SCSS
               </div>
-              <div className="p-2 text-sm text-white bg-black rounded cursor-pointer hover:bg-white hover:text-black">
+              <div className="p-2 text-sm text-white bg-black dark:bg-white dark:text-black rounded cursor-pointer hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors duration-300">
                 Gulp
               </div>
-              <div className="p-2 text-sm text-white bg-black rounded cursor-pointer hover:bg-white hover:text-black">
+              <div className="p-2 text-sm text-white bg-black dark:bg-white dark:text-black rounded cursor-pointer hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors duration-300">
                 Material-UI
               </div>
-              <div className="p-2 text-sm text-white bg-black rounded cursor-pointer hover:bg-white hover:text-black">
+              <div className="p-2 text-sm text-white bg-black dark:bg-white dark:text-black rounded cursor-pointer hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors duration-300">
                 Ant Design
               </div>
-              <div className="p-2 text-sm text-white bg-black rounded cursor-pointer hover:bg-white hover:text-black">
+              <div className="p-2 text-sm text-white bg-black dark:bg-white dark:text-black rounded cursor-pointer hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors duration-300">
                 Rest Api
               </div>
 
-              <div className="p-2 text-sm text-white bg-black rounded cursor-pointer hover:bg-white hover:text-black">
+              <div className="p-2 text-sm text-white bg-black dark:bg-white dark:text-black rounded cursor-pointer hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors duration-300">
                 Redux
               </div>
-              <div className="p-2 text-sm text-white bg-black rounded cursor-pointer hover:bg-white hover:text-black">
+              <div className="p-2 text-sm text-white bg-black dark:bg-white dark:text-black rounded cursor-pointer hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors duration-300">
                 Framer Motion
               </div>
 
-              <div className="p-2 text-sm text-white bg-black rounded cursor-pointer hover:bg-white hover:text-black">
+              <div className="p-2 text-sm text-white bg-black dark:bg-white dark:text-black rounded cursor-pointer hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors duration-300">
                 Webpack
               </div>
-              <div className="p-2 text-sm text-white bg-black rounded cursor-pointer hover:bg-white hover:text-black">
+              <div className="p-2 text-sm text-white bg-black dark:bg-white dark:text-black rounded cursor-pointer hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors duration-300">
                 Vite
               </div>
 
-              <div className="p-2 text-sm text-white bg-black rounded cursor-pointer hover:bg-white hover:text-black">
+              <div className="p-2 text-sm text-white bg-black dark:bg-white dark:text-black rounded cursor-pointer hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors duration-300">
                 Git
               </div>
-              <div className="p-2 text-sm text-white bg-black rounded cursor-pointer hover:bg-white hover:text-black">
+              <div className="p-2 text-sm text-white bg-black dark:bg-white dark:text-black rounded cursor-pointer hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors duration-300">
                 Figma
               </div>
-              <div className="p-2 text-sm text-white bg-black rounded cursor-pointer hover:bg-white hover:text-black">
+              <div className="p-2 text-sm text-white bg-black dark:bg-white dark:text-black rounded cursor-pointer hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors duration-300">
                 Communication
               </div>
-              <div className="p-2 text-sm text-white bg-black rounded cursor-pointer hover:bg-white hover:text-black">
+              <div className="p-2 text-sm text-white bg-black dark:bg-white dark:text-black rounded cursor-pointer hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors duration-300">
                 Critical thinking
               </div>
-              <div className="p-2 text-sm text-white bg-black rounded cursor-pointer hover:bg-white hover:text-black">
+              <div className="p-2 text-sm text-white bg-black dark:bg-white dark:text-black rounded cursor-pointer hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors duration-300">
                 Time management
               </div>
-              <div className="p-2 text-sm text-white bg-black rounded cursor-pointer hover:bg-white hover:text-black">
+              <div className="p-2 text-sm text-white bg-black dark:bg-white dark:text-black rounded cursor-pointer hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors duration-300">
                 Problem solving
               </div>
             </motion.div>
@@ -213,7 +213,7 @@ const AboutPage = () => {
               initial={{ x: "-300px" }}
               animate={isExperienceRefInView ? { x: "0" } : {}}
               transition={{ delay: 0.2 }}
-              className="text-2xl font-bold"
+              className="text-2xl font-bold dark:text-white"
             >
               EXPERIENCE
             </motion.h1>
@@ -238,7 +238,7 @@ const AboutPage = () => {
                 {/* RIGHT */}
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
-                  <div className="p-3 font-semibold bg-white rounded-b-lg rounded-s-lg">
+                  <div className="p-3 font-semibold bg-white rounded-b-lg rounded-s-lg dark:text-black">
                     Front End Developer
                   </div>
                   {/* JOB DESC */}
@@ -271,7 +271,7 @@ const AboutPage = () => {
                     Dec 2024 - present
                   </div>
                   {/* JOB COMPANY */}
-                  <div className="p-1 text-sm font-semibold bg-white rounded w-fit">
+                  <div className="p-1 text-sm font-semibold bg-white rounded w-fit dark:text-black">
                     Masa International Group
                   </div>
                 </div>
@@ -282,7 +282,7 @@ const AboutPage = () => {
                 {/* LEFT */}
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
-                  <div className="p-3 font-semibold bg-white rounded-b-lg rounded-s-lg">
+                  <div className="p-3 font-semibold bg-white rounded-b-lg rounded-s-lg dark:text-black">
                     Front End Developer
                   </div>
                   {/* JOB DESC */}
@@ -310,7 +310,7 @@ const AboutPage = () => {
                     Jan2024 - May2024
                   </div>
                   {/* JOB COMPANY */}
-                  <div className="p-1 text-sm font-semibold bg-white rounded w-fit">
+                  <div className="p-1 text-sm font-semibold bg-white rounded w-fit dark:text-black">
                     Not Found Agance
                   </div>
                 </div>
@@ -340,7 +340,7 @@ const AboutPage = () => {
                 {/* RIGHT */}
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
-                  <div className="p-3 font-semibold bg-white rounded-b-lg rounded-s-lg">
+                  <div className="p-3 font-semibold bg-white rounded-b-lg rounded-s-lg dark:text-black">
                     Front End Developer
                   </div>
                   {/* JOB DESC */}
@@ -365,7 +365,7 @@ const AboutPage = () => {
                     Feb2022 - Aug2022
                   </div>
                   {/* JOB COMPANY */}
-                  <div className="p-1 text-sm font-semibold bg-white rounded w-fit">
+                  <div className="p-1 text-sm font-semibold bg-white rounded w-fit dark:text-black">
                     Ebda
                   </div>
                 </div>
@@ -375,7 +375,7 @@ const AboutPage = () => {
                 {/* LEFT */}
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
-                  <div className="p-3 font-semibold bg-white rounded-b-lg rounded-s-lg">
+                  <div className="p-3 font-semibold bg-white rounded-b-lg rounded-s-lg dark:text-black">
                     React JS Training.
                   </div>
                   {/* JOB DESC */}
@@ -394,7 +394,7 @@ const AboutPage = () => {
                     Jan2021 - Apr2021
                   </div>
                   {/* JOB COMPANY */}
-                  <div className="p-1 text-sm font-semibold bg-white rounded w-fit">
+                  <div className="p-1 text-sm font-semibold bg-white rounded w-fit dark:text-black">
                     App Scoure
                   </div>
                 </div>

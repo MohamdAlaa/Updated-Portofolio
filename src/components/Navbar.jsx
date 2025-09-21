@@ -4,6 +4,7 @@ import NavLinks from "./NavLinks";
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import ThemeToggle from "./ThemeToggle";
 
 const links = [
   { url: "/", title: "Home" },
@@ -18,7 +19,6 @@ const topVariants = {
   },
   opened: {
     rotate: 45,
-    backgroundColor: "rgb(255,255,255)",
   },
 };
 const centerVariants = {
@@ -36,7 +36,6 @@ const bottomVariants = {
   },
   opened: {
     rotate: -45,
-    backgroundColor: "rgb(255,255,255)",
   },
 };
 
@@ -78,56 +77,92 @@ const Navbar = () => {
       <div className="md:hidden lg:flex xl:w-1/3 xl:justify-center">
         <Link
           href="/"
-          className="flex items-center justify-center p-1 text-sm font-semibold bg-black rounded-md"
+          className="flex items-center justify-center p-1 text-sm font-semibold bg-black dark:bg-white rounded-md"
         >
-          <span className="mr-1 text-white">Mohamed</span>
-          <span className="flex items-center justify-center w-12 h-8 text-black bg-white rounded">
+          <span className="mr-1 text-white dark:text-black">Mohamed</span>
+          <span className="flex items-center justify-center w-12 h-8 text-black dark:text-white bg-white dark:bg-black rounded">
             Alaa
           </span>
         </Link>
       </div>
+
       {/* SOCIAL */}
-      <div className="w-1/3 gap-4 social md:flex">
-        <Link href="https://github.com/MohamdAlaa">
+
+      <div className="w-1/3 gap-10 social md:flex  items-center ">
+        <Link
+          target="_blank"
+          href="https://github.com/MohamdAlaa"
+          className="bg-white border border-gray-300 rounded-full"
+        >
           <Image src="/github.png" alt="" width={24} height={24} />
         </Link>
-        <Link href="https://www.facebook.com/mohamed.elmnyawe.7">
+        <Link
+          target="_blank"
+          href="https://www.facebook.com/mohamed.elmnyawe.7"
+        >
           <Image src="/facebook.png" alt="" width={24} height={24} />
         </Link>
-        <Link href="https://x.com/MohamedAla4863">
+        <Link
+          target="_blank"
+          href="https://x.com/MohamedAla4863"
+          className="bg-white border border-gray-300 rounded-full"
+        >
           <Image src="/twitter.svg" alt="" width={22} height={24} />
         </Link>
-        <Link href="https://www.linkedin.com/in/mohamed-alaa-elmenyawe/">
+        <Link
+          target="_blank"
+          href="https://www.linkedin.com/in/mohamed-alaa-elmenyawe/"
+        >
           <Image src="/linkedin.png" alt="" width={24} height={24} />
         </Link>
+      </div>
+      {/* mood and sun icon */}
+      <div className=" md:hidden lg:flex">
+        <ThemeToggle />
       </div>
       {/* RESPONSIVE MENU */}
       <div className="md:hidden">
         {/* MENU BUTTON */}
         <button
-          className="relative z-50 flex flex-col justify-between w-10 h-8"
+          className={
+            open
+              ? `relative z-50 flex flex-col justify-between w-10 h-8 `
+              : `relative z-50 flex flex-col justify-between w-10 h-8 `
+          }
           onClick={() => setOpen((prev) => !prev)}
         >
           <motion.div
             variants={topVariants}
             animate={open ? "opened" : "closed"}
-            className={`w-10 h-1 origin-left 
-              bg-black
-             rounded`}
+            className={
+              open
+                ? `w-10 h-1 origin-left 
+              bg-white dark:bg-black
+             rounded`
+                : `w-10 h-1 origin-left 
+              bg-black dark:bg-white
+             rounded`
+            }
           ></motion.div>
           <motion.div
             variants={centerVariants}
             animate={open ? "opened" : "closed"}
             className={`w-10 h-1 origin-left 
-              bg-black
+              bg-black dark:bg-white
              rounded`}
           ></motion.div>
           <motion.div
             variants={bottomVariants}
             animate={open ? "opened" : "closed"}
-            className={`w-10 h-1 origin-left 
-              bg-black
-             rounded`}
+            className={
+              open
+                ? `w-10 h-1 origin-left 
+              bg-white dark:bg-black
+             rounded`
+                : `w-10 h-1 origin-left 
+              bg-black dark:bg-white
+             rounded`
+            }
           ></motion.div>
         </button>
         {/* MENU LIST */}
@@ -136,7 +171,7 @@ const Navbar = () => {
             variants={listVariants}
             initial="closed"
             animate="opened"
-            className="absolute top-0 left-0 z-40 flex flex-col items-center justify-center w-screen h-screen gap-8 text-4xl text-white bg-black"
+            className="absolute top-0 left-0 z-40 flex flex-col items-center justify-center w-screen h-screen gap-8 text-4xl text-white bg-black dark:bg-white dark:text-black"
           >
             {links.map((link) => (
               <motion.div
